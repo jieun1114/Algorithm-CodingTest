@@ -4,7 +4,7 @@ dx = [0, 0, 1, -1]
 dy = [1, -1, 0, 0]
 
 
-def dfs(place, x, y, visit):
+def bfs(place, x, y, visit):
     dq = deque()
     dq.append([x, y, 0])
 
